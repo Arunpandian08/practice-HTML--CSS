@@ -1,0 +1,130 @@
+.myBody {
+    background: linear-gradient(65deg,
+            rgb(34, 159, 213) 0%,
+            lightblue 50%,
+            rgb(49, 49, 214) 80%);
+}
+
+h1 {
+    display: block;
+    position: sticky;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: linear-gradient(65deg,
+            rgb(34, 159, 213) 0%,
+            lightblue 50%,
+            rgb(49, 49, 214) 80%);
+    top: 0px;
+    padding: 10px;
+}
+
+h1:hover {
+    color: aliceblue;
+    background: black;
+}
+
+h4{
+    position: relative;
+    margin-left: 0;
+    color: white;
+}
+div>h4{
+    background-image: url(./OIP.jpeg);
+    
+}
+
+H3 {
+    display: inline-block;
+    position: sticky;
+    background: linear-gradient(65deg,
+            rgb(34, 159, 213) 0%,
+            lightblue 50%,
+            rgb(49, 49, 214) 80%);
+    top: 58px;
+    padding: 10px;
+    font-size: larger;
+}
+
+h3:hover {
+    color: rgb(120, 7, 7);
+    background: radial-gradient(rgb(15, 14, 14) 0%,
+            rgb(10, 143, 187) 55%,
+            yellow 70%,
+            rgb(172, 236, 115) 2%);
+}
+
+.container {
+    columns: 3;
+    column-gap: 1cm;
+    column-rule: 4px dotted rgb(3, 18, 24);
+    text-align: justify;
+}
+
+.para1:hover {
+    color: rgb(14, 7, 20);
+    background: linear-gradient(65deg,
+            lightblue,
+            rgb(34, 159, 213),
+            rgb(49, 49, 214));
+    padding: 15px;
+}
+
+button {
+    font-size: small;
+    border: 2px solid black;
+    border-color: rgb(12, 10, 10);
+    padding: 2px;
+    margin: 4px;
+    border-radius: 8px;
+    width: 2cm;
+}
+
+button:hover {
+    color: rgb(244, 244, 250);
+    background-color: rgb(10, 132, 63);
+}
+
+button:active {
+    color: rgb(19, 129, 184);
+}
+a{
+    padding-inline-start: 5px;
+    margin: 5px;
+    padding: 50px;
+}
+a:visited {
+    color: rgb(76, 24, 121);
+}
+
+a:hover {
+    color: rgb(150, 21, 4);
+}
+
+div>input {
+    background: linear-gradient(to right red 0%, blue 50%, white 100%);
+    border-radius: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+input:hover {
+    background-color: rgb(227, 133, 33);
+}
+
+.table:hover {
+    background-color: linear-gradient(65deg,
+            lightblue,
+            rgb(34, 159, 213),
+            rgb(49, 49, 214));
+    margin: 10px;
+    padding: 1px;
+    color: rgb(236, 228, 228);
+    border-color: rgb(236, 230, 230);
+}
+
+*:hover {
+    color: rgb(21, 20, 19);
+    background-image: url(./happy-cartoon-scarlett-macaw-parrot-vector-33130274.webp);
+    background-size: 100%;
+}

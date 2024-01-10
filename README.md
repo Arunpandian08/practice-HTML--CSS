@@ -1,0 +1,1 @@
+Check the [netlify link](https://practiced-blog-in-html-and-css.netlify.app/)

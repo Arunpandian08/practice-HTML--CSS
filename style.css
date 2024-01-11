@@ -4,7 +4,10 @@
             rgb(34, 159, 213) 0%,
             lightblue 50%,
             rgb(49, 49, 214) 80%);
+            border:thick solid;
+            border-color:white;
 }
+
 
 h1 {
     display: block;
@@ -25,16 +28,24 @@ h1:hover {
 }
 
 .login{
-    display: block;
-    position: sticky;
-    
+    display: flex;
+    justify-content: end;
     margin-left: 0;
     margin-bottom:0px;
     color: rgb(248, 241, 242);
     background-image: url(./IMG_20210115_152952.jpg);
-background-size:cover;
-}
+background-size:cover ;
+    
+ }
 
+ .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: start;
+    width: 20%;
+    
+ }
 
 H3 {
     display: inline-block;
@@ -65,7 +76,10 @@ h3:hover {
     background-image: url(./happy-cartoon-scarlett-macaw-parrot-vector-33130274.webp);
     background-size: 100%;
 }
-
+.para1{
+    padding: 15px;
+    margin: left 25px; ;
+}
 .para1:hover {
     color: rgb(14, 7, 20);
     background: linear-gradient(65deg,
@@ -73,6 +87,7 @@ h3:hover {
             rgb(34, 159, 213),
             rgb(49, 49, 214));
     padding: 15px;
+    margin: left 25px; ;
 }
 p::first-letter{
     color: rgb(228, 67, 191);
@@ -83,6 +98,8 @@ p::first-letter{
     margin-inline-end: 0.2rem;
 
 }
+
+
 button {
     font-size: small;
     border: 2px solid black;
@@ -90,6 +107,7 @@ button {
     padding: 2px;
     margin: 4px;
     border-radius: 8px;
+    height: 5vh;
     width: 2cm;
     color: rgb(244, 244, 250);
     background-color: rgb(10, 132, 63);
@@ -116,6 +134,7 @@ a:hover {
 div>input {
     background: linear-gradient(to right rgb(186, 19, 19) 0%, blue 50%, white 100%);
     border-radius: 10px;
+    border-color: blue;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     padding: 10px;
     margin-left:5px;
@@ -123,7 +142,10 @@ div>input {
     margin-bottom: 1rem;
 }
 
-label{
+.label{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin-left:1rem;
    color: rgb(217, 226, 218);
    background-blend-mode: difference;
@@ -136,17 +158,14 @@ input:hover {
     background-color: rgb(227, 133, 33);
 }
 
-.table:hover {
-    background-color: linear-gradient(65deg,
-            lightblue,
-            rgb(34, 159, 213),
-            rgb(49, 49, 214));
-    margin: 10px;
-    padding: 1px;
-    color: rgb(224, 19, 19);
-}
 
-*:hover {
-    color: rgb(21, 20, 19);
-
-}
+.table {
+    display: flex;
+    justify-content:flex-start;
+  }
+  
+  .table > * {
+    background-color: rebeccapurple;
+    padding: 2rem;
+    
+  } 

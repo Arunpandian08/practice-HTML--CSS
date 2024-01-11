@@ -74,7 +74,15 @@ h3:hover {
             rgb(49, 49, 214));
     padding: 15px;
 }
+p::first-letter{
+    color: rgb(228, 67, 191);
+    float: left;
+    font-size: 2.6em;
+    font-weight: bold;
+    line-height: 1;
+    margin-inline-end: 0.2rem;
 
+}
 button {
     font-size: small;
     border: 2px solid black;
